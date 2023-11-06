@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practice.Flyout"
+             Title="Flyout">
+
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Master Page">
+            <Label Text="Mater Page Details"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <ContentPage Title="Details Page">
+            <Label Text=" Page Details"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+        </ContentPage>
+    </FlyoutPage.Detail>
+   
+</FlyoutPage>
